@@ -68,10 +68,10 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '8') {
     noStroke();
     fill(146, 229, 247);
-    rect(mouseX, mouseY, 20, 20);
+    rect(mouseX, mouseY, 100, 100);
   } else if (toolChoice == '9') {
-
-    fill(300, 100, 0, 80);
+    noStroke();
+    fill(71, 166,74);
     rect(mouseX, mouseY, 40, 40);
   } else if (toolChoice == '0') {
     stroke(0, 0);
